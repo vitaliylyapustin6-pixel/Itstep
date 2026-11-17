@@ -1,0 +1,15 @@
+# Основна інформація про проєкт
+[project]
+name = "python-ai63"
+version = "0.1.0"
+description = "ITStep course for students"
+requires-python = ">=3.10"
+
+# Налаштування Ruff – аналіз коду
+[tool.ruff]
+
+# Максимальна довжина рядка коду
+line-length = 88
+
+# Версія Python, для якої перевіряється код
+target-version = "py312"
